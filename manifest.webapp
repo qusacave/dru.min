@@ -1,0 +1,12 @@
+{
+    "version"    : "0.1",
+    "name"       : "dru.min",
+    "description": "dru.min",
+    "launch_path": "/index.html",
+    "icons" : {"128" : "/src/icon.png"},
+    "developer"  : {
+        "name" : "qusacave",
+        "url"  : ""
+    },
+    "installs_allowed_from": ["*"]
+}
