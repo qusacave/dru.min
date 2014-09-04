@@ -4,6 +4,7 @@
     "description": "dru.min",
     "launch_path": "/index.html",
     "icons" : {"128" : "/src/icon.png"},
+    "orientation": "portrait-primary",
     "developer"  : {
         "name" : "qusacave",
         "url"  : ""

@@ -15,14 +15,6 @@ body {
   text-shadow: 0px 0px 10px black;
 }
 
-#print_lx {
-  margin-top : 6px;
-  text-align : center;
-  font-size  : 16px;
-  color      : white;
-  text-shadow: 1px 1px 3px black;
-}
-
 #mButton {
   margin-top : 10px;
 }
