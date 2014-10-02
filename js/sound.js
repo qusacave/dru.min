@@ -2,14 +2,14 @@
 //  音が鳴るように準備する
 //------------------------------------------------------------------------------
 var inst = [
-    "src/kick.wav",
-    "src/hat.wav",
     "src/snare.wav",
+    "src/hat.wav",
+    "src/kick.wav",
     "src/punch.wav"
 ];
 
 var iString = [
-    "Kick", "Hat", "Snare", "Punch"
+    "Snare", "Hat", "Kick", "Punch"
 ];
 
 var xAcceleration = 0;
@@ -64,7 +64,7 @@ loadSample = function(url){
     request.send();
 };
 
-var nowInst =2;
+var nowInst =0;
 loadSample(inst[nowInst]);
 
 changeInst = function( num ){
